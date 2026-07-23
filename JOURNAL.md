@@ -60,7 +60,7 @@ While surfing through the internet, I found [this](https://thearchimedes.com/pro
 
 Then came the crucial step of naming this project. Thanks to ChatGPT, it helped me to decide a name that sounds technically correct, unique and also a little aligned towards convential naming. I wanted "Archimedes"-related something in the name of the project, "Tri-" as a prefix and either "Turbine" or "Windmill" in the name of the project. With some AI-assisted brainstorming, I confirmed the name of the project to be "Tri-Archimedean Wind Turbine", which sounds quite good and also describes the thing exactly, simultaneously.
 
-Total time spent: 6h 40m
+Total time spent: 6h 45m
 
 ---
 
@@ -181,7 +181,7 @@ Total time spent: 3h 05m
 
 Here's the lapse of today's session: [TAWT-LPS-1-D5](https://lapse.hackclub.com/timelapse/pTWpnDaI6UNO)
 
-Total time spent: 1h 05m
+Total time spent: 1h 10m
 
 ---
 
