@@ -12,7 +12,7 @@
 Ever since I came accross the concept of Archimedes Wind Turbines, I have always wanted to make one. Archimedes wind turbine is a type of wind turbine that is extremely efficient in small-scale set ups. The triblade architecture of the windmill inspired by the Archimedes wind turbine takes advantage of the turbulance of the wind in non-open small-scale places, unlike regular triblade rotor. Designed for urban and residential rooftops, its nautilus shell-like shape allows it to automatically face the wind, capturing wind from any direction while operating silently and safely for wildlife.
 
 > "The Archimedes windmill is a new type of wind turbine comprising three circular blades which are wrapped around one another and then expanded. This creates a three-dimensional conical turbine, similar to elongated shells found on the beach. The special design ensures that wind is drawn into the turbine. The average yield is many times higher compared to a normal urban windmill propeller."
-
+>
 > — [thearchimedes.com](https://thearchimedes.com/#)
 
 Today, I did some foundational research on the concept of Archimedes Wind Turbines. Right before creating this project, I hopped into researching deeply about this fascinating concept.
@@ -53,7 +53,9 @@ Then I went through [this](https://thearchimedes.com/images/pdf/AWM%20brochure%2
 After reading the brochure, especially the power output of the system, I was wondering something critical. I next did some research using AI (ChatGPT) on this project, asked it critical questions that were unavailable on the internet, and guideance on how to make this project and with how much budget. The one question that stood out the most to me was this:
 
 > "Is there any reliable way of fabricating the rotor without using industrial machinery?"
+> 
 > I could of course 3D print the rotor, but it would be significantly small in size and not produce any meaningful output. I have seen some videos in YouTube where they have used flatenned PVC pipe sheets and made a not-too-big rotor: this way is quite unreliable. On the other hand, the industry must be relying on heavy machinery with I can nor access or study due to restrictions.
+> 
 > Thus, I am deciding to produce this project in small scale and 3D print the rotor at maximum size in my school's Bambu Lab H2D. Still, I am very open to choose a better and more reliable way.
 
 I made some mental calculations about the span of the rotor blades and made ChatGPT apply the required formulae to produce a chart on how much the power output would increase based on the surface area of the triblade rotor exposed to the wind.
@@ -396,7 +398,10 @@ Total time spent: 3h 00m
 
 # Day 7 — 22.07.2026: Journaling & Catching up After Months
 
-blah blah blah
+Today was the day I came back to continue and progress this project. I did two things today:
+
+1. Journal this project
+2. Catch up with this project
 
 Here's the lapse of today's session: [TAWT-LPS-2-D7](https://lapse.hackclub.com/timelapse/GkcBGLRQ85SD)
 
@@ -405,6 +410,8 @@ Total time spent: 1h 40m
 ---
 
 # Day 8 — 23.07.2026: Journaling
+
+
 
 Here's the lapse of today's session: [TAWT-LPS-3-D8]()
 
