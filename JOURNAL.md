@@ -244,7 +244,7 @@ This completes the energy chain: from wind to stored electrical energy.
 | ATORSE 3-Phase Rectifier     | Convert AC → DC            | $18.27     | 1   | $18.27      |
 | DYS D3536-9 910KV BLDC Motor | Generate electricity       | $17.72     | 1   | $17.72      |
 
-Total time spent: 7h 45m
+Total time spent: 6h 45m
 
 ---
 
@@ -290,7 +290,7 @@ Anyway, what I actually did was notice that printing the Lower Frame would need 
 
 <img width="1366" height="733" alt="image" src="https://github.com/user-attachments/assets/3bc5389e-8a72-40a6-ae98-2cd6a80b9b50" />
 
-Total time spent: 3h 05m
+Total time spent: 3h 25m
 
 # Day 5 — 20.03.2026: Optimizing for Aerodynamics
 
@@ -314,7 +314,7 @@ By the way, I made my first succesful **[timelapse](https://lapse.hackclub.com/t
 
 Here's the lapse of today's session: [TAWT-LPS-1-D5](https://lapse.hackclub.com/timelapse/pTWpnDaI6UNO)
 
-Total time spent: 1h 10m
+Total time spent: 1h 30m
 
 ---
 
@@ -348,7 +348,7 @@ I placed the small 100nF capacitors where they made sense for decoupling and ran
 
 <img width="658" height="381" alt="image" src="https://github.com/user-attachments/assets/405e036a-4cde-4962-ba4c-7bf50ccf7510" />
 
-Total time spent: 3h 00m
+Total time spent: 3h 20m
 
 ---
 
@@ -356,12 +356,13 @@ Total time spent: 3h 00m
 
 Today was the day I came back to continue and progress this project. I did two things today:
 
-1. Journal this project
-2. Catch up with this project
+1. **Journal this project:** I have built the basic framework for journaling day #1 and #2 which is based on the journal of past projets on Forge. The project was started on Hack CLub Stasis. Due to the lack of time, I was unable to complete this and thus I had to move this to Hack Club Forge. The journaling system for Forge and Stasis is quite different. Moreover, the journal which I had exported from Stasis was structured new to old, unlike the conventional old to new. This means that the latest entries appear at the top. I created a copy JOURNAL_TMP.md file and shifted the Stasis journals over there and in the JOURNAL.md and then added the Forge YAML table and then imported the first journal log. Then I started writing the journals for day one. Then I wrote the journal for day two after importing it.
+
+2. **Catch up with this project:** Since I had mentally decided to complete this project at any cost before touching any other project, it meant that I had to also re-live those times I spent resarching about this concept. To put this, I can best day is that it was really important for me to re-research on this project as I had forgotten some stuff. I revisited the sites, watched some videos (time not counted of course), read articles, went through projects and studied commercially available wind turbines. To be specific, I went through a lot more stuff than I had originally studied when I initially worked on this in March, 2026.
 
 Here's the lapse of today's session: [TAWT-LPS-2-D7](https://lapse.hackclub.com/timelapse/GkcBGLRQ85SD)
 
-Total time spent: 1h 40m
+Total time spent: 2h 40m
 
 ---
 
