@@ -3,7 +3,7 @@
 **Author:** Sunrit Hazra  
 **Description:** A triblade wind turbine with blades shaped as Archimedean spirals, designed to explore spiral-based wind energy generation, based on the Liam F1 Archimedes.  
 **Created on:** 16-03-2026  
-**Designing Progress (%): 70%**
+**Designing Progress (%): 60%**
 **Building Progress (%): 0%**
 ---
 
@@ -294,27 +294,23 @@ Total time spent: 3h 25m
 
 # Day 5 — 20.03.2026: Optimizing for Aerodynamics
 
-Now it's time for a bit of aerodynamics. Where I live, strong winds are rare, but I don't want to take any risks. Thus, I am adding two aerodynamic parts that will redirect the strong blowing wind to the blade, increasing efficiency! And of course, here is the final look:
+**Day 5 — 20.03.2026: Optimizing for Aerodynamics**
+
+Now it's time for a bit of aerodynamics. Where I live, strong winds are rare, but I don't want to take any risks. So I'm adding two aerodynamic parts that will redirect stronger wind onto the blade, increasing efficiency. And of course, here's the final look:
 
 <img width="1365" height="740" alt="image" src="https://github.com/user-attachments/assets/68e666fd-7a3c-405b-961a-dc84995416b6" />
 
----
+**Adding Nose Cone & Dome (1 hour 4 minutes):** I added an aerodynamic nose cone and dome to ensure any strong winds get redirected to the blade without straining the structure. It also hides the BLDC motor and makes the overall structure look better.
 
-## **Adding Nose Cone & Dome**
-
-I added aerodynamic nose cone and dome to ensure that any strong winds will be redirected to the Blade, and it will not cause any strain on the structure. Additionally, it hides the BLDC motor, and makes the overall structure look better.
-
-By the way, I made my first succesful **[timelapse](https://lapse.hackclub.com/timelapse/pTWpnDaI6UNO)** by using Microsoft Edge instead of Google Chrome. Now I can finally show more than type.
+By the way, I made my first successful [timelapse](https://lapse.hackclub.com/timelapse/pTWpnDaI6UNO) by using Microsoft Edge instead of Google Chrome. Now I can finally show more than type.
 
 <img width="1366" height="733" alt="image" src="https://github.com/user-attachments/assets/87fc0c53-1484-41e5-b6b5-3bafc01002a5" />
 
 <img width="1366" height="733" alt="image" src="https://github.com/user-attachments/assets/68c813e5-916f-43e0-b188-edc2f70d1068" />
 
----
-
 Here's the lapse of today's session: [TAWT-LPS-1-D5](https://lapse.hackclub.com/timelapse/pTWpnDaI6UNO)
 
-Total time spent: 1h 30m
+Total time spent: 1h 10m
 
 ---
 
@@ -356,9 +352,9 @@ Total time spent: 3h 20m
 
 Today was the day I came back to continue and progress this project. I did two things today:
 
-1. **Journal this project:** I have built the basic framework for journaling day #1 and #2 which is based on the journal of past projets on Forge. The project was started on Hack CLub Stasis. Due to the lack of time, I was unable to complete this and thus I had to move this to Hack Club Forge. The journaling system for Forge and Stasis is quite different. Moreover, the journal which I had exported from Stasis was structured new to old, unlike the conventional old to new. This means that the latest entries appear at the top. I created a copy JOURNAL_TMP.md file and shifted the Stasis journals over there and in the JOURNAL.md and then added the Forge YAML table and then imported the first journal log. Then I started writing the journals for day one. Then I wrote the journal for day two after importing it.
+1. **Journal this project:** I have built the basic framework for journaling day #1 and #2 which is based on the journal of past projets on Forge. The project was started on Hack CLub Stasis. Due to the lack of time, I was unable to complete this and thus I had to move this to Hack Club Forge. The journaling system for Forge and Stasis is quite different. Moreover, the journal which I had exported from Stasis was structured new to old, unlike the conventional old to new. This means that the latest entries appear at the top. I created a copy JOURNAL_TMP.md file and shifted the Stasis journals over there and in the JOURNAL.md and then added the Forge YAML table and then imported the first journal log. Then I started writing the journals for day one. Then I wrote the journal for day two after importing it. It is extremely convinient if my progress is timelapsed using Hack Club lapse. But what a pity, I did not know lapse existed back when I was working on this project. In fact, my first lapse in Hack Club was on 20th March, 2026 which was day 5 of this project. Never knew the convinience of lapse before that. Talking about convenience, ironically this very day, my second lapse did not compile due to some issues, wasting one full hour of proof.
 
-2. **Catch up with this project:** Since I had mentally decided to complete this project at any cost before touching any other project, it meant that I had to also re-live those times I spent resarching about this concept. To put this, I can best day is that it was really important for me to re-research on this project as I had forgotten some stuff. I revisited the sites, watched some videos (time not counted of course), read articles, went through projects and studied commercially available wind turbines. To be specific, I went through a lot more stuff than I had originally studied when I initially worked on this in March, 2026.
+2. **Catch up with this project:** Since I had mentally decided to complete this project at any cost before touching any other project, it meant that I had to also re-live those times I spent resarching about this concept. To put this, I can best day is that it was really important for me to re-research on this project as I had forgotten some stuff. I revisited the sites, watched some videos (time not counted of course), read articles, went through projects and studied commercially available wind turbines. To be specific, I went through a lot more stuff than I had originally studied when I initially worked on this in March, 2026. Here are some sources: [this](https://www.sciencedirect.com/science/article/abs/pii/S0360544222024537) article gives a deep numerical and experimental analysis on this project; [this](https://www.irjmets.com/upload_newfiles/irjmets80300100777/paper_file/irjmets80300100777.pdf) document shows how to build an Archimedes Wind Turbine step-by-step, with mathematical calculations and formulae; [this](https://www.mdpi.com/2076-3417/16/3/1469) article takes a deep dive into the aerodynamics of the triblade rotor.
 
 Here's the lapse of today's session: [TAWT-LPS-2-D7](https://lapse.hackclub.com/timelapse/GkcBGLRQ85SD)
 
@@ -372,6 +368,6 @@ Total time spent: 2h 40m
 
 Here's the lapse of today's session: [TAWT-LPS-3-D8]()
 
-Total time spent: 0h 00m
+Total time spent: 5h 15m
 
 ---
