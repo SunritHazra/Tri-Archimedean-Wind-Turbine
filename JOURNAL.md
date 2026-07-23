@@ -112,7 +112,7 @@ But, anyways, here's how I did it:
 
 <img width="1366" height="733" alt="image" src="https://github.com/user-attachments/assets/2ddb568c-79a0-4d5e-9911-bc297bcacca5" />
 
-Next thing to model was the frame itself. To model the frame, I spent about some minutes researching about the Liam F1 Archimedes. [This](https://photon-renewables.co.uk/solar-products/liam-f1-archimedes-turbine/) was my inspiration, especially for the frame.
+Next thing to model was the frame itself. To model the frame, I spent some time researching about the Liam F1 Archimedes. [This](https://photon-renewables.co.uk/solar-products/liam-f1-archimedes-turbine/) was my inspiration, especially for the frame.
 
 **1. Sketching the Frame:** I looked at its frame, manually made up proportions in mind by visually looking at the pictures and then I started with a circle of 575 mm. I had to make sure everything fits together perfectly. But a problematic thing is that I forgot to enable Parametric Modelling after I disabled due to some problems.
 
@@ -153,120 +153,88 @@ Total time spent: 6h 35m
 
 # Day 3 — 18.03.2026: Progressing the Structure & Researching on Electronics
 
-The basic structure is done. Now, I guess the next step is to reinforce and work on what's already done. By the way, [this](https://drive.google.com/file/d/1qaffLusWx64qEn7S2Rdufs02tpBj00Fq/view?usp=drive_link) is the final result of what was done.
+The basic structure is done. Now, I guess the next step is to reinforce and work on what's already there. By the way, [this](https://drive.google.com/file/d/1qaffLusWx64qEn7S2Rdufs02tpBj00Fq/view?usp=drive_link) is the final result of what was done.
 
-/## **1. Remodelling the Blade (1 hour 42 minutes)**
-
-From the structure I have made, the blade appeared to be disproportionate. So, I remodelled the blade with many many different proportions and styles, with different angles, different pitch and different height. I edited the Coil function more than 23 times. Then I sliced it everytime to see if it fits with the supports. I made about 27 different blades, and even the slicer software struggles to arrange the Blade. But after multiple trial and errors, here is the final result:
+**1. Remodelling the Blade:** From the structure I'd made, the blade appeared disproportionate. So I remodelled it with many different proportions and styles, with different angles, pitch, and height. I edited the coil function more than 23 times, slicing it each time to check the fit against the supports. I made about 27 different blades, and even the slicer software struggled to arrange the blade. After multiple trials and errors, here is the final result:
 
 <img width="1366" height="733" alt="image" src="https://github.com/user-attachments/assets/8e238753-b6b0-4324-b822-055e4a9fef79" />
 
 <img width="1366" height="733" alt="image" src="https://github.com/user-attachments/assets/d5d33064-4ad2-42bf-98bc-753775d7cb14" />
 
-/## **2. Adding Blade Shaft Hubs (25 minutes)**
-
-I added shaft hubs for the blade on both sides of the frame. I did this using sketches and extrusions.
+**2. Adding Blade Shaft Hubs:** I added shaft hubs for the blade on both sides of the frame, using sketches and extrusions.
 
 <img width="1366" height="733" alt="image" src="https://github.com/user-attachments/assets/3c36afb8-7c36-4676-8624-a2f97ba78251" />
 
 <img width="1366" height="733" alt="image" src="https://github.com/user-attachments/assets/c67fd0fb-0f01-4ad3-b40a-88a5145f07e7" />
 
-/## **3. Adding Joints for the Frame Stand (48 minutes)**
-
-I wanted the structure to be rigid and firm, supported by its own structure. For that, I made the Lower Frame connect the Upper Frame, and the Upper Frame connect the lowermost part, the Frame stand. I added a hole so that the whole Frame Stand can go inside the Upper Frame hole.
+**3. Adding Joints for the Frame Stand:** I wanted the structure to be rigid and firm, supported by its own parts. For that, I made the Lower Frame connect to the Upper Frame, and the Upper Frame connect to the lowermost part, the Frame Stand. I added a hole so the whole Frame Stand could fit inside the Upper Frame hole.
 
 <img width="1366" height="733" alt="image" src="https://github.com/user-attachments/assets/c81aea7b-4a62-4419-805d-93c9831bcbc3" />
 
 <img width="1366" height="733" alt="image" src="https://github.com/user-attachments/assets/d250d7e4-d2ac-4c49-b5d8-9858b50bde7e" />
 
-/## **4. Adding the Fasteners (34 minutes)**
-
-I had already made the holes, now I added the fasteners that will make the struture stronger. I am not using any standard screw as I don't want to use washers, or else the metal may bite into the 3D printed frame, if overtightened. This also ensured that the whole system is connected through only two fasteners. I also added threads to the screws.
+**4. Adding the Fasteners:** With the holes already made, I added the fasteners that would make the structure stronger. I'm not using standard screws, since I don't want to use washers — the metal could bite into the 3D-printed frame if overtightened. This also ensured the whole system stayed connected through just two fasteners. I added threads to the screws as well.
 
 <img width="1366" height="733" alt="image" src="https://github.com/user-attachments/assets/02252df4-f016-4e2c-8fff-44aba3b5c929" />
 
 <img width="1366" height="733" alt="image" src="https://github.com/user-attachments/assets/f967f12e-dd62-4539-af10-343c59c50d62" />
 
-/## **5. Integrating the Blade in the Assembly. (15 minutes)**
-
-Most of the Structure was completed. Now it was the time to integrate the Blade into the assembly. I added a new axle shaft with proper clearence. Then I added motions to the model at last.
+**5. Integrating the Blade in the Assembly:** Most of the structure was completed, so it was time to integrate the blade into the assembly. I added a new axle shaft with proper clearance, then added motion to the model at last.
 
 <img width="1366" height="733" alt="image" src="https://github.com/user-attachments/assets/16d0c3e2-f372-403a-af46-38f572bd24a8" />
 
 <img width="1366" height="733" alt="image" src="https://github.com/user-attachments/assets/efa162f1-c8ac-4948-b166-1461421579d6" />
 
-My project's mechanical and structural part is mostly done. What now remains is to make the thing actually function by integrating proper electronics. This is where the real transformation happens—from a rotating structure to a working energy system.
+My project's mechanical and structural parts are mostly done. What remains is to make the thing actually function by integrating proper electronics — the real transformation from a rotating structure to a working energy system.
 
-/## **1. Researching About the AWM-750D-150W**
-
-After about 55 minutes of reading through articles and researching about the official [AWM-750D-150W](https://thearchimedes.com/products), I realised this:
-
-The 0.75 meter diameter version of the official Archimedes Wind Turbine costs absolutely $1700 minimum. My diameter is **0.39 m**, which is about **1.92 times smaller**. Additionally, I am using custom built parts with no factory or mass production setup, so $700 to $900 is the absolute minimum and sane range. But I am targeting maximum $100 for this project.
-
-Their product gives about 10 W of energy in 5 m/s wind. With my smaller blade, this output drops significantly at 5 m/s wind.
+**1. Researching About the AWM-750D-150W:** After reading through articles and researching the official [AWM-750D-150W](https://thearchimedes.com/products), I realised this: the 0.75 m diameter version of the official Archimedes wind turbine costs at least $1700. My diameter is 0.39 m, about 1.92 times smaller, and since I'm using custom-built parts with no factory or mass-production setup, $700–$900 is the realistic minimum — though I'm targeting a maximum of $100 for this project. Their product gives about 10 W of energy in 5 m/s wind; with my smaller blade, this output drops significantly at the same wind speed.
 
 <img width="992" height="866" alt="image" src="https://github.com/user-attachments/assets/0a244534-7339-4b6b-9295-f3cc152cc1c2" />
 
-/## **2. Calculating Sweep Area of the Blade (32 minutes)**
+**2. Calculating Sweep Area of the Blade:** Before jumping into electronics, I needed to understand what kind of power I could even expect from this little turbine. The sweep area of the blade determines how much wind energy is captured. After correcting the dimensions, the blade diameter is 390 mm (0.39 m):
 
-Before jumping into electronics, I needed to understand what kind of power I can even expect from this little turbine. The sweep area of the blade determines how much wind energy is being captured.
+- Radius = 0.195 m
+- Sweep Area ≈ π × (0.195)² ≈ 0.119 m²
 
-After correcting the dimensions, the **blade diameter is 390 mm (0.39 m)**:
+Since my design is based on a tri-blade Archimedean spiral, I calculated the effective area of one blade and then considered all three combined. This gave me a rough idea of the energy scale I'm dealing with, and made it clear early on that this is a low-power system, where efficiency matters more than anything else.
 
-* Radius = 0.195 m
-* Sweep Area ≈ π × (0.195)² ≈ **0.119 m²**
+**3. Finding the Appropriate Motor:** I already had some NEMA 17 stepper motors, so I started there. First I tested whether they were functional, and thankfully they were. However, once I reasoned it through, I realised something important — the turbine simply wouldn't be able to generate enough torque at low wind speeds to rotate a stepper motor effectively.
 
-Since my design is based on a tri-blade Archimedean spiral, I calculated the effective area of one blade and then considered all three combined. This gave me a rough idea of the energy scale I am dealing with, and it became clear early on that this is a low-power system, where efficiency matters more than anything else.
+That was a turning point (because I had literally four NEMA 17 motors in perfect condition!). The system isn't brute-force driven; it depends on subtle motion. So I dropped the stepper motor idea (unfortunately) and shifted toward brushless DC motors, which are far better suited for low-resistance rotation and energy generation in these conditions.
 
-/## **3. Finding the Appropriate Motor (42 minutes)**
-
-I already had some **NEMA 17** stepper motors, so I started there. First, I tested whether they were functional, and thankfully, they were. However, once I tried to reason it out, I realised something important—the turbine simply wouldn’t be able to generate enough torque at low wind speeds to rotate a stepper motor effectively.
-
-That was a turning point (because I had literally 4 NEMA 17 motors in perfect condition!). The system is not brute-force driven, instead it depends on subtle motion. So I dropped the stepper motor idea (unfortunately) and shifted towards brushless DC motors, which are far better suited for low-resistance rotation and energy generation in such conditions.
-
-After exploring options, I selected the **[DYS D3536-9 910 KV BLDC Motor](https://robu.in/product/dys-d3536-9-910-kv-bldc-motor/)**, mainly because of its larger stator size, better torque characteristics, and overall efficiency at lower RPM ranges. By the way, I thought the NEMA 17 would look cool, but this looks cooler.
+After exploring options, I selected the [DYS D3536-9 910 KV BLDC Motor](https://robu.in/product/dys-d3536-9-910-kv-bldc-motor/), mainly for its larger stator size, better torque characteristics, and overall efficiency at lower RPM ranges. By the way, I thought the NEMA 17 would look cool, but this looks cooler.
 
 <img width="1366" height="733" alt="image" src="https://github.com/user-attachments/assets/b75fcff1-da04-4b66-bbab-20cb8889ab72" />
 
-/## **4. Finding the Appropriate Rectifier (25 minutes)**
+**4. Finding the Appropriate Rectifier:** The motor generates 3-phase AC (like any other BLDC motor), which isn't directly usable. I needed a way to convert that into DC.
 
-The motor generates 3-phase AC (kind of like any other BLDC motor out there), which is not directly usable. I needed a way to convert that into DC.
-
-That’s where the rectifier comes in. After looking at different options, I decided to go with the **[ATORSE 3-Phase Bridge Rectifier](https://amzn.in/d/01Bq0PjP)**. It simplifies the process significantly and avoids the complexity of building a custom diode bridge.
+That's where the rectifier comes in. After looking at different options, I decided to go with the [ATORSE 3-Phase Bridge Rectifier](https://amzn.in/d/01Bq0PjP). It simplifies the process significantly and avoids the complexity of building a custom diode bridge.
 
 <img width="1366" height="733" alt="image" src="https://github.com/user-attachments/assets/5cc7c79c-22fb-4c53-9e81-932a3dc7a865" />
 
-/## **5. Finding the Appropriate Capacitor (18 minutes)**
+**5. Finding the Appropriate Capacitor:** Once the AC is converted to DC, the output is still not stable — it fluctuates with wind speed. To smooth this out, I added capacitors.
 
-Once the AC is converted to DC, the output is still not stable—it fluctuates with wind speed. To smooth this out, I added capacitors.
-
-I chose **[2 × 1000µF, 25V electrolytic capacitors](https://robu.in/product/1000uf-25v-electrolytic-capacitor-dip-pack-of-5/?gad_source=1&amp;gad_campaignid=17427802703&amp;gbraid=0AAAAADvLFWdoU8ETCY7L4Jk7JtQiLVYpi&amp;gclid=Cj0KCQjwmunNBhDbARIsAOndKpn8g1YaEd46AuHutQtw_pX00QtMXT71daDhztqtxJNMG3HaxQKSYS8aAi7DEALw_wcB)**, connected in parallel. This effectively increases the total capacitance and helps stabilize the voltage before it goes into the next stage. This step is subtle but critical, because unstable input can completely break downstream electronics.
+I chose [2 × 1000µF, 25V electrolytic capacitors](https://robu.in/product/1000uf-25v-electrolytic-capacitor-dip-pack-of-5/), connected in parallel. This effectively increases the total capacitance and helps stabilize the voltage before it goes into the next stage. This step is subtle but critical, because unstable input can completely break downstream electronics.
 
 <img width="1366" height="733" alt="image" src="https://github.com/user-attachments/assets/af0d2da8-17c5-41c4-8cd1-e6e29cf5e19d" />
 
-/## **6. Finding the Appropriate Boost Converter (20 minutes)**
+**6. Finding the Appropriate Boost Converter:** At this point, I had DC — but it was too low to be useful. The voltage coming from the turbine is often less than 1V, not enough for charging or powering anything.
 
-At this point, I had DC—but it was too low to be useful. The voltage coming from the turbine is often less than 1V, which is not enough for charging or powering anything.
-
-So I introduced a boost converter. I selected the **[XL6009 DC-DC Boost Converter](https://robu.in/product/xl6009-dc-dc-step-up-converter-performance-ultra-lm2577-booster-circuit-board/)**, which can step up low input voltages to a stable output, typically around 5V.
+So I introduced a boost converter, selecting the [XL6009 DC-DC Boost Converter](https://robu.in/product/xl6009-dc-dc-step-up-converter-performance-ultra-lm2577-booster-circuit-board/), which can step up low input voltages to a stable output, typically around 5V.
 
 <img width="1366" height="733" alt="image" src="https://github.com/user-attachments/assets/ea43bead-e397-442b-ba3e-fafc47e0e413" />
 
-/## **7. Finding the Appropriate Charging Module (12 minutes)**
+**7. Finding the Appropriate Charging Module:** Now that I had usable voltage, I needed a safe way to store it. Directly connecting a battery is dangerous and inefficient.
 
-Now that I have usable voltage, I needed a safe way to store it. Directly connecting a battery is dangerous and inefficient.
-
-So I used the **[TP4056 Charging Module](https://robu.in/product/tp4056-1a-li-ion-lithium-battery-charging-module-with-current-protection-type-c/?gad_source=1&amp;gad_campaignid=21296336107&amp;gbraid=0AAAAADvLFWfIVKpodbBiwwStvgjfAd9AA&amp;gclid=Cj0KCQjwmunNBhDbARIsAOndKpkr0DUxdLOvePmfRXMjHUz1TEuaEtSA7X1qSXegPcqnVKEs85l3oL8aAhxaEALw_wcB)**, which is designed specifically for charging lithium-ion cells. It regulates both current and voltage, ensuring safe and controlled charging.
+So I used the [TP4056 Charging Module](https://robu.in/product/tp4056-1a-li-ion-lithium-battery-charging-module-with-current-protection-type-c/), which is designed specifically for charging lithium-ion cells. It regulates both current and voltage, ensuring safe and controlled charging.
 
 <img width="1366" height="733" alt="image" src="https://github.com/user-attachments/assets/33ec4fd8-8300-40d4-85f5-578e5a357dd5" />
 
-/## **8. Finding the Appropriate Battery (5 minutes)**
-
-Finally, I needed a way to store the generated energy. I decided to use a standard **18650 lithium-ion battery**, since it is compact, efficient, and works perfectly with the TP4056 module.
+**8. Finding the Appropriate Battery:** Finally, I needed a way to store the generated energy. I decided to use a standard 18650 lithium-ion battery, since it's compact, efficient, and works perfectly with the TP4056 module.
 
 This completes the energy chain: from wind to stored electrical energy.
 
-## **Final Component Summary**
+**Final Component Summary**
 
 | Name                         | Purpose                    | Cost (USD) | Qty | Total (USD) |
 | ---------------------------- | -------------------------- | ---------- | --- | ----------- |
@@ -282,53 +250,41 @@ Total time spent: 7h 45m
 
 # Day 4 — 19.03.2026: Adding Motors and Bearings & Optimizing for Manufacturing
 
-Previosly, I had finalised all (at least most, I guess) the electronic components, now its the time to integrate them into the assembly, so that I can optimize the design best for the components. By the way this is the final look.
+Previously, I had finalised all (at least most, I think) of the electronic components. Now it's time to integrate them into the assembly, so I can optimize the design for the components. By the way, this is the final look:
 
 <img width="1366" height="733" alt="image" src="https://github.com/user-attachments/assets/d0daa1ae-40ff-41d4-b775-fa9b26ad927d" />
 
-/## **1. Adding the BLDC Motors (45 minutes)**
+**1. Adding the BLDC Motors:** The DYS D3536-9 910 KV BLDC Motor's job is to convert the rotational energy of the rotor into electrical energy. I chose it not randomly, but because it requires little torque and is highly efficient.
 
-The **DYS D3536-9 910 KV BLDC Motor** has the job of converting the rotational energy of the Rotor to electrical energy. I have chosen that not randomly, but because it requires little tourqe and is highly efficient.
-
-To integrate this, I searched for some footprints and 3D models in the internet, and then I found the model from **GrabCAD**. I imported the model, and made significant changes to the **Mechanical Components** and **Structual Components** through extrusions, sketches, combine cut and face offsets. I also added joints and motions.
+To integrate this, I searched for footprints and 3D models online and found the model from GrabCAD. I imported it and made significant changes to the mechanical and structural components through extrusions, sketches, combine cuts, and face offsets. I also added joints and motion.
 
 <img width="1366" height="733" alt="image" src="https://github.com/user-attachments/assets/e1bf6eb0-8c33-4503-b9c4-e5aedd3fbf68" />
 
 <img width="1366" height="733" alt="image" src="https://github.com/user-attachments/assets/3c417d21-3184-4a5e-b830-8cf4c818ca1b" />
 
----
+**2. Adding & Integrating Bearings:** The structure obviously needed something to reliably rotate on, so bearings were a must. I went back to the internet, specifically JLCMC and Robu.in, to find bearings with a 10 mm inner diameter. The JLCMC site kept saying "No Page Available" whenever I selected any bearing. On Robu.in, I found the perfect bearing: the 6200ZZ.
 
-/## **2. Adding & Integrating Bearings (35 minutes)**
-
-The structure obviously needed something to reliably rotate on, so bearings are a must. I again went to the internet, specifically JLCMC and Robu.in to find bearings with **10 mm Inner Diameter**. The JLC site was crazy, and continiously said No Page available whenever I selected any bearing. In the Robu.in site I found the perfect bearing, which was 6200ZZ.
-
-Then, from McMaster-Carr I imported two **5972K326_Steel Ball Bearing** and added them to the assembly by making holes, and adding more material to the hubs.
+Then, from McMaster-Carr, I imported two 5972K326 steel ball bearings and added them to the assembly by making holes and adding more material to the hubs.
 
 <img width="1366" height="733" alt="image" src="https://github.com/user-attachments/assets/5766b3a0-e9a6-440c-b10c-ba719d481368" />
 
 <img width="1366" height="733" alt="image" src="https://github.com/user-attachments/assets/f6e24e86-3f04-40f7-9fa1-2ed01f542d58" />
 
-/## **3. Fixing the Lower Frame Hub (12 minutes)**
-
-The hub of the Lower Frame was made from a circle, so I had to fix it by adding extrusions, that made it a flat face. Then, I added cuts for the bearing.
+**3. Fixing the Lower Frame Hub:** The hub of the Lower Frame was made from a circle, so I had to fix it by adding extrusions that made it a flat face. Then I added cuts for the bearing.
 
 <img width="1366" height="733" alt="image" src="https://github.com/user-attachments/assets/2e3836d7-c908-4caa-8f6a-a65097992b6c" />
 
 <img width="1366" height="733" alt="image" src="https://github.com/user-attachments/assets/cc2d1eaf-b4c9-4636-8fbf-e0ec26cc3b5a" />
 
-/## **4. Dividing the Lower Frame into Components (30 minutes)**
+**4. Dividing the Lower Frame into Components:** I started my recording with Hackatime Lapse after clicking "Create." After about half an hour, I saw nothing had been recorded, and no matter what I tried, nothing worked — the UI was just unresponsive.
 
-I peacefully started my work with Hacktime Lapse, after clicking **"Create"**. Then after about an half-an-hour, I saw nothing was recorded. And, I tried everyway to record something more, but nothing worked. Lapse is not working for me! The UI is just unresponsive!
-
-Anyways, what I did was, I noticed that printing the Lower Frame would need a lot of supports, so, I thought of seperating it into Components for asssembly. I also added clearence.
+Anyway, what I actually did was notice that printing the Lower Frame would need a lot of supports, so I separated it into components for assembly and added clearance.
 
 <img width="1366" height="733" alt="image" src="https://github.com/user-attachments/assets/9dc9b1bd-73c5-411f-ac4f-ab84e7c7c4c7" />
 
 <img width="1366" height="733" alt="image" src="https://github.com/user-attachments/assets/abd59c36-4758-4fc6-adad-6751554aeddc" />
 
-/## **5. Dividing the Lower Frame into Components (25 minutes)**
-
-This Upper Frame needed even more supports, so I intended to do the same. But after sometime I realised that it will make the overall structure less sturdy. Eventually, I had to drop the idea.
+**5. Dividing the Upper Frame into Components:** The Upper Frame needed even more supports, so I intended to do the same. But after a while I realised it would make the overall structure less sturdy, so I eventually dropped the idea.
 
 <img width="1366" height="733" alt="image" src="https://github.com/user-attachments/assets/ea4e4318-74fd-47aa-b496-bd236707d6ca" />
 
@@ -344,7 +300,7 @@ Now it's time for a bit of aerodynamics. Where I live, strong winds are rare, bu
 
 ---
 
-## **Adding Nose Cone &amp; Dome (1 hour 4 minutes)**
+## **Adding Nose Cone & Dome**
 
 I added aerodynamic nose cone and dome to ensure that any strong winds will be redirected to the Blade, and it will not cause any strain on the structure. Additionally, it hides the BLDC motor, and makes the overall structure look better.
 
@@ -364,19 +320,19 @@ Total time spent: 1h 10m
 
 # Day 6 — 30.04.2026: Researching on Electronics & Drawing the Schematic
 
-As the model was mostly completed, it was now time to get started with the PCBA. But before, I did a final review on the electronics I will be using. So, I did some research on that for about 35 minutes and then I drew the schematic.
+As the model was mostly completed, it was now time to get started with the PCBA. But before, I did a final review on the electronics I will be using. So, I did some research on that and then I drew the schematic.
 
 <img width="1366" height="768" alt="image" src="https://github.com/user-attachments/assets/833744f2-9230-4f41-96f3-e4a724c942f5" />
 
 ---
 
-## **1. Researching on the Electronics (40 minutes)**
+## **1. Researching on the Electronics**
 
 I started with the BLDC motor, and then I moved to the rectifier, both of which I confirmed were still the right choices. Then I went through the whole power chain step by step. I checked how the 3-phase output from the **DYS D3536-9** motor goes into the **ATORSE 3-phase bridge rectifier**, then through the fuse, the TVS diode for protection, the big electrolytic capacitors for smoothing, the **XL6009 boost converter**, and finally into the **TP4056 charging module**.
 
 I had to go through the datasheet of **[DYS D3536-9](https://www.dys.hk/product/D3536.html)** to make sure everything is fine.
 
-## **2. Drawing the Schematic in KiCad (2 hours 5 minutes)**
+## **2. Drawing the Schematic in KiCad**
 
 Drawing the schematic in KiCad took quite a while. I began by placing all the connectors first — J1 for the three phases coming from the motor, J4 for the rectifier input, J2 for the battery, and J3 for the load output.
 
