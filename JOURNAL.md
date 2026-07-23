@@ -1,5 +1,5 @@
 ---
-**Title:** Tri-Archimedean-Wind-Turbine
+**Title:** Tri-Archimedean Wind Turbine
 **Author:** Sunrit Hazra  
 **Description:** A triblade wind turbine with blades shaped as Archimedean spirals, designed to explore spiral-based wind energy generation, based on the Liam F1 Archimedes.  
 **Created on:** 16-03-2026  
@@ -366,8 +366,8 @@ Total time spent: 2h 40m
 
 
 
-Here's the lapse of today's session: [TAWT-LPS-3-D8]()
+Here's the lapse of today's session: [TAWT-LPS-3-D8](https://lapse.hackclub.com/timelapse/gyqqshLbmhB1)
 
-Total time spent: 5h 15m
+Total time spent: 5h 35m
 
 ---
