@@ -7,9 +7,64 @@
 **Building Progress (%): 0%**
 ---
 
-# Day 1 — 30.06.2026: Modelling the Rotor & Frame
+# Day 1 — 16.03.2026: Foundational Research
 
-Ever since I came accross the concept of Archimedes Wind Turbines, that challenged conventional wind turbines in small scale, I have always wanted to make one. So, right before creating this project, I hopped into researching about this concept. I am really excited to get started with the modelling.
+Ever since I came accross the concept of Archimedes Wind Turbines, I have always wanted to make one. Archimedes wind turbine is a type of wind turbine that is extremely efficient in small-scale set ups. The triblade architecture of the windmill inspired by the Archimedes wind turbine takes advantage of the turbulance of the wind in non-open small-scale places, unlike regular triblade rotor. Designed for urban and residential rooftops, its nautilus shell-like shape allows it to automatically face the wind, capturing wind from any direction while operating silently and safely for wildlife.
+
+> "The Archimedes windmill is a new type of wind turbine comprising three circular blades which are wrapped around one another and then expanded. This creates a three-dimensional conical turbine, similar to elongated shells found on the beach. The special design ensures that wind is drawn into the turbine. The average yield is many times higher compared to a normal urban windmill propeller." — [thearchimedes.com](https://thearchimedes.com/#)
+
+Today, I did some foundational research on the concept of Archimedes Wind Turbines. Right before creating this project, I hopped into researching deeply about this fascinating concept.
+
+These windmills served as the inspiration for my project:
+
+- [This](https://thearchimedes.com/) created the initial spark of making this project.
+- [This](https://www.archimedesgreenenergys.com/) introduced the basic concept.
+- [This](https://photon-renewables.co.uk/solar-products/liam-f1-archimedes-turbine/) is the Liam F1 Archimedes.
+- [This](https://www.youtube.com/watch?v=hCAunoANn3U) video also taught me the concept.
+
+This is the archimedes windmill by the Dutch Dutch MSc Marinus Mieremet:
+
+<img width="2500" height="1196" alt="image" src="https://github.com/user-attachments/assets/1d90b17c-c825-4568-b2e4-769618cd884f" />
+
+Visually, it seemed like a cool complex-organic piece of machinery, especially due to the triblade spiral rotor. To me, it seemed that I could divide this project into three different parts: 
+
+1. Structural Parts: The frame, fasteners
+2. Mechanical Parts: The triblade-rotor, bearings, axle
+3. Electronic Parts: The generator motor, and the PCBA
+
+Just as I had the basic idea of how this thing works, it seemed like I should dive into modelling the windmill. But it seemed it is better to just watch a tutorial for the time-being. To be specific, I watched [this](https://www.youtube.com/watch?v=vfy-T7bE3I0) tutorial video on how to model the rotor, and actually understood how to do it. Before this video I had watched 3 more, but actually struggled how to understand this concept.
+
+To visually study the model, I needed some 3D models to study. Thus, I went to Sketchfab, GrabCAD and Printables for reliable models for the windmill I am going to make. These are some models I downloaded and studied:
+
+- Found [this](https://sketchfab.com/3d-models/archimedes-wind-turbine-bd6e893a660e430f8a36c028dcada6ed) from Sketchfab
+- Found [this](https://grabcad.com/library/archimedes-liam-f1-wind-turbine-1) from GrabCAD
+- Found [this](https://www.printables.com/model/753160-liam-f1-wind-turbine-fibonacciarchimedes-golden-ra) from Printables.
+
+I imported the models one by one into Autodesk Fusion and studied the structure of the frame on which the rotor stood and especially the rotor's spiral triblade architecture.
+
+<img width="1366" height="733" alt="image" src="https://github.com/user-attachments/assets/2f79eedc-35e7-486f-9b76-ff9facf04aa7" />
+
+Then I went through [this](https://thearchimedes.com/images/pdf/AWM%20brochure%20Respect%202023%20HQ%20compressed.pdf) brochure from the archimedes website. This is some basic information about thier product.
+
+<img width="789" height="445" alt="image" src="https://github.com/user-attachments/assets/bbee7790-d9bb-4f6b-a959-ac3a52b4a835" />
+
+After reading the brochure, especially the power output of the system, I was wondering something critical. I next did some research using AI (ChatGPT) on this project, asked it critical questions that were unavailable on the internet, and guideance on how to make this project and with how much budget. The one question that stood out the most to me was this:
+
+> "Is there any reliable way of fabricating the rotor without using industrial machinery?"
+> I could of course 3D print the rotor, but it would be significantly small in size and not produce any meaningful output. I have seen some videos in YouTube where they have used flatenned PVC pipe sheets and made a not-too-big rotor: this way is quite unreliable. On the other hand, the industry must be relying on heavy machinery with I can nor access or study due to restrictions.
+> Thus, I am deciding to produce this project in small scale and 3D print the rotor at maximum size in my school's Bambu Lab H2D. Still, I am very open to choose a better and more reliable way.
+
+I made some mental calculations about the span of the rotor blades and made ChatGPT apply the required formulae to produce a chart on how much the power output would increase based on the surface area of the triblade rotor exposed to the wind.
+
+While surfing through the internet, I found [this](https://thearchimedes.com/products) page with the power output of their two products, based on the speed of the wind they are exposed to. This proved how important speeds and blade spans are to determine the output by the rotor.
+
+Then came the crucial step of naming this project. Thanks to ChatGPT, it helped me to decide a name that sounds technically correct, unique and also a little aligned towards convential naming. I wanted "Archimedes"-related something in the name of the project, "Tri-" as a prefix and either "Turbine" or "Windmill" in the name of the project. With some AI-assisted brainstorming, I confirmed the name of the project to be "Tri-Archimedean Wind Turbine", which sounds quite good and also describes the thing exactly, simultaneously.
+
+Total time spent: 6h 40m
+
+---
+
+# Day 2 — 17.03.2026: Modelling the Rotor & Frame
 
 The very first thing I did was to model the blades: The core of the whole turbine.
 
@@ -107,5 +162,47 @@ The structure needed to stand on something. Thus, I had to model a rigid structu
 <img width="1366" height="733" alt="image" src="https://github.com/user-attachments/assets/6b41a5c2-2d90-445f-ab19-89892a606f2b" />
 
 Total time spent: 6h 35m
+
+---
+
+# Day 3 — 18.03.2026: Progressing the Structure & Researching on Electronics
+
+Total time spent: 7h 45m
+
+---
+
+# Day 4 — 19.03.2026: Adding Motors and Bearings & Optimizing for Manufacturing
+
+Total time spent: 3h 05m
+
+---
+
+# Day 5 — 20.03.2026: Optimizing for Aerodynamics
+
+Here's the lapse of today's session: [TAWT-LPS-1-D5](https://lapse.hackclub.com/timelapse/pTWpnDaI6UNO)
+
+Total time spent: 1h 05m
+
+---
+
+# Day 6 — 30.04.2026: Researching on Electronics & Drawing the Schematic
+
+Total time spent: 3h 00m
+
+---
+
+# Day 7 — 22.07.2026: Journaling & Catching up After Months
+
+Here's the lapse of today's session: [TAWT-LPS-2-D7](https://lapse.hackclub.com/timelapse/GkcBGLRQ85SD)
+
+Total time spent: 1h 40m
+
+---
+
+# Day 8 — 23.07.2026: Journaling
+
+Here's the lapse of today's session: [TAWT-LPS-3-D8]()
+
+Total time spent: 0h 00m
 
 ---
